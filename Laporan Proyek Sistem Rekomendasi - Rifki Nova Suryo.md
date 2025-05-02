@@ -58,7 +58,7 @@ Berdasarkan __Solution Statmen__ di atas, proyek ini menggunakan __Collaborative
 Tabel 1. Merupakan contoh rekomendasi berdasarkan User-id 276726
 | ISBN     |              Book-Title                      | Probability  |
 |----------|----------------------------------------------|--------------|
-| 13983    | Blackout	                                  |     1.0      |
+| 13983    | Blackout	                                    |     1.0      |
 | 100760   | The Cassandra Compact: A Covert-One Novel    |     1.0      |
 | 44068    | Growing Up                                   |     1.0      |
 | 133350   | Wolves of the Calla (The Dark Tower, Book 5) |     1.0      |
@@ -74,10 +74,11 @@ dimana:
 - FP (False Positives): model salah memprediksi 
 - FN (False Negatives): model salah memprediksi (gagal mendeteksi)
 
-![Gambar 1. Grafik Hasil Training](C:\Users\Hp\Pictures\download.png)
+![Gambar 1. Grafik Hasil Training][download](https://github.com/user-attachments/assets/d19da844-8e86-4871-a890-b528936c9b9b)
+
 ​
 
-Gambar 1 merupakan visualisasi training model, diperoleh nilai train accuracy sebesar 98% dan test accuracy sebesar 70%. Berdasarkan hasil itu model ini terlalu > overfitting karena hasil plot dari data test terus mengalami penurunan dibandingkan dengan hasil plot dari data_train
+Gambar 1 merupakan visualisasi training model, diperoleh nilai train accuracy sebesar 98% dan test accuracy sebesar 70%. Berdasarkan hasil itu model ini terlalu > overfitting karena hasil plot dari data test terus mengalami penurunan dibandingkan dengan hasil plot dari data_train. Berdasarkan hasil yang didapat model sudah menjawab pertanyaan problem statments pada business understanding meski perlu melakukan perbaikan pada model agar tidak overfitting
 
 
 
