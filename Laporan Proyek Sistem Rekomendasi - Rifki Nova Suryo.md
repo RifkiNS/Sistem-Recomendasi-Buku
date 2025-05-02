@@ -74,7 +74,7 @@ dimana:
 - FP (False Positives): model salah memprediksi 
 - FN (False Negatives): model salah memprediksi (gagal mendeteksi)
 
-![Gambar 1. Grafik Hasil Training] [download](https://github.com/user-attachments/assets/d19da844-8e86-4871-a890-b528936c9b9b)
+![Gambar 1. Grafik Hasil Training](https://github.com/user-attachments/assets/d19da844-8e86-4871-a890-b528936c9b9b)
 
 ​
 
